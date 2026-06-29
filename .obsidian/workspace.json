@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crowbio/运维/aws相关操作.md",
+                "file": "技术经验/vibe coding工程化建设.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "aws相关操作"
+              "title": "vibe coding工程化建设"
             }
           }
         ]
@@ -217,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c7395cfc5b08b80",
+  "active": "5c4085c214bedda9",
   "lastOpenFiles": [
     "crowbio/运维/aws相关操作.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.10230ec00a20",
