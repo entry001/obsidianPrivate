@@ -1,3 +1,6 @@
+> [!important] 本地敏感信息
+> 真实密钥/密码仅保存在 `crowbio/运维/.local-secrets.env`（已加入本地 Git 忽略）；本文中的敏感字段统一使用占位符。
+
 ## aiagent
 ```
 

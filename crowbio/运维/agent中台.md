@@ -1,4 +1,7 @@
 
+> [!important] 本地敏感信息
+> 真实密钥/密码/License 仅保存在 `crowbio/运维/.local-secrets.env`（已加入本地 Git 忽略）；本文只保留占位符，避免再次进入 Git 历史。
+
 微软模型地址：
 测试环境：
     OPENAI_API_KEY: Optional[str] = "<AZURE_OPENAI_TEST_KEY>"  # OpenAI API密钥

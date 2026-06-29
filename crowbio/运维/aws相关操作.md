@@ -1,5 +1,8 @@
 
 
+> [!important] 本地敏感信息
+> 真实密钥/密码仅保存在 `crowbio/运维/.local-secrets.env`（已加入本地 Git 忽略）；本文只保留占位符，命令执行前请先在本机取值或导出环境变量。
+
 ## **登录命令：**
 aws sso login --profile cb-ps-ai-it-rw-838261167460
 

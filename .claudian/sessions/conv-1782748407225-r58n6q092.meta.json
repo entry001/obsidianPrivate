@@ -4,20 +4,20 @@
   "title": "Debug GitHub push protection secret block",
   "titleGenerationStatus": "success",
   "createdAt": 1782748407226,
-  "updatedAt": 1782749633765,
-  "lastResponseAt": 1782749633765,
+  "updatedAt": 1782750266606,
+  "lastResponseAt": 1782750266606,
   "sessionId": "aac45a17-5e28-4fdb-b7ef-e9fefa476c5d",
   "providerState": {
     "providerSessionId": "aac45a17-5e28-4fdb-b7ef-e9fefa476c5d"
   },
   "usage": {
     "model": "sonnet",
-    "inputTokens": 2752,
+    "inputTokens": 287,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 55552,
+    "cacheReadInputTokens": 66304,
     "contextWindow": 200000,
-    "contextTokens": 58304,
-    "percentage": 29,
+    "contextTokens": 66591,
+    "percentage": 33,
     "contextWindowIsAuthoritative": true
   }
 }
