@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780380835696-ablomcqjw",
+  "providerId": "claude",
+  "title": "cluster:",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780380835697,
+  "updatedAt": 1780935497996,
+  "lastResponseAt": 1780935497996,
+  "sessionId": "e13909df-7bb5-4904-94a2-545588cef59e",
+  "providerState": {
+    "providerSessionId": "e13909df-7bb5-4904-94a2-545588cef59e"
+  },
+  "currentNote": "crowbio/运维/运维部署指导.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

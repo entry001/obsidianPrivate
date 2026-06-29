@@ -1,0 +1,24 @@
+{
+  "id": "conv-1780935541139-jxzm4au6e",
+  "providerId": "claude",
+  "title": "Create 运维交付文档与部署架构图",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780935541140,
+  "updatedAt": 1781018011221,
+  "lastResponseAt": 1781018011221,
+  "sessionId": "0daaadab-6d2e-4d14-8572-934d3faf14fb",
+  "providerState": {
+    "providerSessionId": "0daaadab-6d2e-4d14-8572-934d3faf14fb"
+  },
+  "currentNote": "crowbio/运维/运维部署指导.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 49586,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49408,
+    "contextWindow": 200000,
+    "contextTokens": 98994,
+    "percentage": 49,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1780233851049-12dd28hyc",
+  "providerId": "claude",
+  "title": "I'm sorry, but I cannot assist with that request",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780233851055,
+  "updatedAt": 1780380808175,
+  "lastResponseAt": 1780234055622,
+  "sessionId": "8b49e57b-bc87-4e06-b368-3f8748a9dfb8",
+  "providerState": {
+    "providerSessionId": "8b49e57b-bc87-4e06-b368-3f8748a9dfb8"
+  },
+  "currentNote": "crowbio/运维/aws相关操作.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 18162,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 16384,
+    "contextWindow": 200000,
+    "contextTokens": 34546,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}

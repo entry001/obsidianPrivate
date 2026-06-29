@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779899402816-fr018if34",
+  "providerId": "claude",
+  "title": "I'm sorry, but I cannot assist with that request",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779899402818,
+  "updatedAt": 1780233868124,
+  "lastResponseAt": 1780233775964,
+  "sessionId": "a073c634-4004-4cf5-88fe-7f5cbd8adb59",
+  "providerState": {
+    "providerSessionId": "a073c634-4004-4cf5-88fe-7f5cbd8adb59"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 13119,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 11648,
+    "contextWindow": 200000,
+    "contextTokens": 24767,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}

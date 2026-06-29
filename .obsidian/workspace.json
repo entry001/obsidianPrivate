@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "66cf592376ff3cea",
+    "type": "split",
+    "children": [
+      {
+        "id": "69819f8812ea509f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c7395cfc5b08b80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "crowbio/运维/aws相关操作.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "aws相关操作"
+            }
+          },
+          {
+            "id": "128d1966ded39f90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "crowbio/运维/相关环境.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "相关环境"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73f3efa39074c644",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8ef6661a94c7b29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33294f4424c1d19f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "bba59c13439cbdcc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4f86a63a075b8c64",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236.5
+  },
+  "right": {
+    "id": "0de409a57c6ebedc",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a80ce05b886430f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea34c7582c50205c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "crowbio/甲方会议代办.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "甲方会议代办 的反向链接列表"
+            }
+          },
+          {
+            "id": "ce0acdf2fb8c76af",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "crowbio/前后端对接api.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "前后端对接api 的出链列表"
+            }
+          },
+          {
+            "id": "8d515ed3d545f17a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "42ded2e714667cb8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "71448efe89fbaca7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "crowbio/运维/ECS部署配置.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "ECS部署配置 的大纲"
+            }
+          },
+          {
+            "id": "5c4085c214bedda9",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 453.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "realclaudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "128d1966ded39f90",
+  "lastOpenFiles": [
+    "crowbio/运维/ECS配置.md",
+    "技术经验/harness工程.md",
+    "技术经验/Pasted image 20260629001500.png",
+    "crowbio/运维/aws相关操作.md",
+    "crowbio/运维/相关环境.md",
+    "crowbio/运维/ECS部署配置.md",
+    "crowbio/会议代办.md",
+    "crowbio/运维/后端/README.md",
+    "crowbio/运维/运维部署指导.md",
+    "crowbio/运维/中台/README.md",
+    "crowbio/运维/agent中台.md",
+    "crowbio/运维/运维部署架构图.drawio",
+    "crowbio/运维/存储桶说明.md",
+    "crowbio/运维/运维部署指导.md.tmp.8840.9c49e85bd945",
+    "crowbio/运维/运维部署指导.md.tmp.8840.00053b746adc",
+    "crowbio/运维/运维部署指导.md.tmp.8840.faf0cf75aa3c",
+    "crowbio/运维/运维部署架构图.md",
+    "crowbio/运维/运维部署指导.md.tmp.8840.2ccc08e2666e",
+    "crowbio/运维/运维部署架构图.drawio.tmp.8840.0e01f3747738",
+    "crowbio/运维/运维部署架构图.drawio.tmp.8840.2dab03bc3d51",
+    "crowbio/运维/运维部署架构图.html",
+    "crowbio/运维/运维部署架构图-客户汇报版.html",
+    "crowbio/运维/运维部署架构图.drawio.tmp.8840.7eb30b9bee48",
+    "crowbio/CHAT_API.md",
+    "crowbio/BACKEND_API.md",
+    "crowbio/项目例会.md",
+    "crowbio/前后端对接api.md",
+    "欢迎.md",
+    "crowbio/未命名.md",
+    "copilot/copilot-conversations/总结狐疑@20260316_224659.md",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "未命名.canvas"
+  ]
+}
