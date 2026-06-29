@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crowbio/运维/相关环境.md",
+                "file": "技术经验/harness工程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "相关环境"
+              "title": "harness工程"
             }
           }
         ],
@@ -228,34 +228,36 @@
       "bases:新建数据库": false,
       "realclaudian:Open Claudian": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "128d1966ded39f90",
   "lastOpenFiles": [
-    "crowbio/运维/ECS配置.md",
+    "技术经验/vibe coding工程化建设.md",
+    "crowbio/运维/aws相关操作.md.tmp.41616.bd8b10c15909",
+    "crowbio/运维/相关环境.md.tmp.41616.c49804e86ff0",
+    "crowbio/运维/相关环境.md.tmp.41616.830533c37ee3",
+    "crowbio/运维/相关环境.md.tmp.41616.06ba87144f29",
+    "crowbio/运维/ECS配置.md.tmp.41616.1ad416d962c4",
+    "crowbio/运维/ECS配置.md.tmp.41616.09442b89d6dc",
+    "crowbio/运维/aws相关操作.md.tmp.41616.c4f8b0e1af17",
+    "crowbio/运维/aws相关操作.md.tmp.41616.980b129d9b96",
+    "crowbio/运维/aws相关操作.md.tmp.41616.fd39f29cb0ce",
+    "crowbio/运维/agent中台.md.tmp.41616.8832e1ed6a41",
     "技术经验/harness工程.md",
+    "crowbio/运维/相关环境.md",
+    "crowbio/运维/ECS配置.md",
     "技术经验/Pasted image 20260629001500.png",
     "crowbio/运维/aws相关操作.md",
-    "crowbio/运维/相关环境.md",
     "crowbio/运维/ECS部署配置.md",
     "crowbio/会议代办.md",
     "crowbio/运维/后端/README.md",
     "crowbio/运维/运维部署指导.md",
     "crowbio/运维/中台/README.md",
     "crowbio/运维/agent中台.md",
-    "crowbio/运维/运维部署架构图.drawio",
     "crowbio/运维/存储桶说明.md",
-    "crowbio/运维/运维部署指导.md.tmp.8840.9c49e85bd945",
-    "crowbio/运维/运维部署指导.md.tmp.8840.00053b746adc",
-    "crowbio/运维/运维部署指导.md.tmp.8840.faf0cf75aa3c",
     "crowbio/运维/运维部署架构图.md",
-    "crowbio/运维/运维部署指导.md.tmp.8840.2ccc08e2666e",
-    "crowbio/运维/运维部署架构图.drawio.tmp.8840.0e01f3747738",
-    "crowbio/运维/运维部署架构图.drawio.tmp.8840.2dab03bc3d51",
-    "crowbio/运维/运维部署架构图.html",
-    "crowbio/运维/运维部署架构图-客户汇报版.html",
-    "crowbio/运维/运维部署架构图.drawio.tmp.8840.7eb30b9bee48",
     "crowbio/CHAT_API.md",
     "crowbio/BACKEND_API.md",
     "crowbio/项目例会.md",
@@ -268,7 +270,6 @@
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
     "未命名.canvas"
   ]
 }
