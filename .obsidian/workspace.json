@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术经验/vibe coding工程化建设.md",
+                "file": "技术经验/人员结构及角色变革.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "vibe coding工程化建设"
+              "title": "人员结构及角色变革"
             }
           }
         ]
@@ -200,7 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5
+    "width": 293.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,17 +217,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c4085c214bedda9",
+  "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "技术经验/Pasted image 20260629001500.png",
+    "技术经验/人员结构及角色变革.md",
+    "技术经验/spec编写标准.md",
+    "技术经验/harness工程.md",
+    "技术经验/vibe coding工程化建设.md",
     "crowbio/运维/aws相关操作.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.10230ec00a20",
     "crowbio/运维/agent中台.md.tmp.41616.b1cdaf5a93eb",
-    "技术经验/vibe coding工程化建设.md",
     "crowbio/运维/agent中台.md",
     "crowbio/运维/ECS部署配置.md",
     "crowbio/运维/ECS配置.md",
     "crowbio/运维/运维部署指导.md",
-    "技术经验/harness工程.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.bd8b10c15909",
     "crowbio/运维/相关环境.md.tmp.41616.c49804e86ff0",
     "crowbio/运维/相关环境.md.tmp.41616.830533c37ee3",
@@ -237,7 +240,6 @@
     "crowbio/运维/aws相关操作.md.tmp.41616.c4f8b0e1af17",
     "crowbio/运维/aws相关操作.md.tmp.41616.980b129d9b96",
     "crowbio/运维/相关环境.md",
-    "技术经验/Pasted image 20260629001500.png",
     "crowbio/会议代办.md",
     "crowbio/运维/后端/README.md",
     "crowbio/运维/中台/README.md",
@@ -253,8 +255,6 @@
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
     "未命名.canvas"
   ]
 }
