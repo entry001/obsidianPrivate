@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "aws相关操作"
             }
-          },
-          {
-            "id": "128d1966ded39f90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "技术经验/harness工程.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "harness工程"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,6 +184,16 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "02705e4b1bd63c2a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
         "currentTab": 5
@@ -232,9 +217,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "128d1966ded39f90",
+  "active": "5c4085c214bedda9",
   "lastOpenFiles": [
     "技术经验/vibe coding工程化建设.md",
+    "crowbio/运维/agent中台.md",
+    "crowbio/运维/aws相关操作.md",
+    "crowbio/运维/ECS部署配置.md",
+    "crowbio/运维/ECS配置.md",
+    "crowbio/运维/运维部署指导.md",
+    "技术经验/harness工程.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.bd8b10c15909",
     "crowbio/运维/相关环境.md.tmp.41616.c49804e86ff0",
     "crowbio/运维/相关环境.md.tmp.41616.830533c37ee3",
@@ -245,17 +236,11 @@
     "crowbio/运维/aws相关操作.md.tmp.41616.980b129d9b96",
     "crowbio/运维/aws相关操作.md.tmp.41616.fd39f29cb0ce",
     "crowbio/运维/agent中台.md.tmp.41616.8832e1ed6a41",
-    "技术经验/harness工程.md",
     "crowbio/运维/相关环境.md",
-    "crowbio/运维/ECS配置.md",
     "技术经验/Pasted image 20260629001500.png",
-    "crowbio/运维/aws相关操作.md",
-    "crowbio/运维/ECS部署配置.md",
     "crowbio/会议代办.md",
     "crowbio/运维/后端/README.md",
-    "crowbio/运维/运维部署指导.md",
     "crowbio/运维/中台/README.md",
-    "crowbio/运维/agent中台.md",
     "crowbio/运维/存储桶说明.md",
     "crowbio/运维/运维部署架构图.md",
     "crowbio/CHAT_API.md",
