@@ -1,27 +1,23 @@
 {
   "id": "conv-1782748407225-r58n6q092",
   "providerId": "claude",
-  "title": "结合omc的工程化方案，设计一套适合我们自己的工程化方案，包含整个业务流，其中我们的系统包含主调度服...",
-  "titleGenerationStatus": "failed",
+  "title": "Debug GitHub push protection secret block",
+  "titleGenerationStatus": "success",
   "createdAt": 1782748407226,
-  "updatedAt": 1782822737218,
-  "lastResponseAt": 1782822737218,
-  "sessionId": "5e7c78d9-8a0c-4e3a-a2a9-7d42a11c85eb",
+  "updatedAt": 1782831389598,
+  "lastResponseAt": 1782750266606,
+  "sessionId": "aac45a17-5e28-4fdb-b7ef-e9fefa476c5d",
   "providerState": {
-    "providerSessionId": "5e7c78d9-8a0c-4e3a-a2a9-7d42a11c85eb",
-    "previousProviderSessionIds": [
-      "aac45a17-5e28-4fdb-b7ef-e9fefa476c5d"
-    ]
+    "providerSessionId": "aac45a17-5e28-4fdb-b7ef-e9fefa476c5d"
   },
-  "currentNote": "AI 工程化方案.md",
   "usage": {
     "model": "sonnet",
-    "inputTokens": 7371,
+    "inputTokens": 287,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 42343,
+    "cacheReadInputTokens": 66304,
     "contextWindow": 200000,
-    "contextTokens": 49714,
-    "percentage": 25,
+    "contextTokens": 66591,
+    "percentage": 33,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -607,3 +607,234 @@ AI 生成核心路径测试（允许覆盖率放宽至 60%）
 | **人类终审权** | AI 做所有机械工作（编码/测试/审计），人类只做三件事：写 Spec、审边界、做终审。 |
 | **跨仓库铁律** | 数据库有主人、通信走协议、改动需审批。禁止"野蛮"跨仓库操作。 |
 | **渐进式落地** | 第 1 周搭基础设施 → 第 2-3 周试点 → 第 4 周全面推广。不搞一夜转型。 |
+
+---
+
+## 十、OpenSpec × Superpowers 双引擎增强层
+
+当前方案已经解决了“记忆如何分层、约束如何阻断、代码如何过流水线”的问题，但还缺一个更清晰的双引擎定义：
+
+- **OpenSpec**：把“要做什么、做到什么程度、影响哪些边界”定义成机器可执行的真理源。
+- **Superpowers**：把“AI 应该如何稳定执行、如何检索上下文、如何自检、如何合规交付”固化成默认能力层。
+
+一句话总结：**OpenSpec 负责定义目标，Superpowers 负责保证执行质量。**
+
+### 10.1 OpenSpec 新增分层
+
+在原有 L1 任务记忆之上，建议把 Spec 进一步蒸馏成 5 类标准工件：
+
+| Spec 类型 | 作用 | 推荐格式 | 产出时机 | 主要消费者 |
+|----------|------|----------|----------|------------|
+| **Product Spec** | 描述业务目标、用户行为、验收标准 | Markdown + BDD | 需求进入开发前 | 产品 / 开发 / 测试 / AI |
+| **Change Spec** | 描述本次改动影响的仓库、模块、表、接口、事件 | Markdown + YAML Frontmatter | 建分支后立即生成 | AI / Reviewer / CI |
+| **Contract Spec** | API、事件、Schema、状态机、枚举、兼容性声明 | OpenAPI / JSON Schema / Mermaid | 设计审计阶段 | 前后端 / 子系统 / CI |
+| **Execution Spec** | 测试矩阵、迁移顺序、发布步骤、回滚策略 | Checklist + Runbook | 开发完成前 | CI / 发布 / 运维 |
+| **Hotfix Spec** | 最小修复面、风险面、临时豁免、补账计划 | Markdown 模板 | 紧急修复时 | 开发 / 审计 / 值班 |
+
+### 10.2 OpenSpec 最小必填字段
+
+每个任务 Spec 不应只写“接口 + BDD”，还应强制补齐以下字段：
+
+```yaml
+spec_id: DISPATCH-2026-001
+change_type: feature | refactor | migration | hotfix
+repos: [主调度服务, 主调度Web]
+owners: [架构组, 开发]
+blast_radius: api | db | websocket | electron | worker
+compatibility: backward-compatible | breaking
+release_guard: feature_flag | canary | direct
+rollback: required
+```
+
+这样做的价值是：AI 不只是知道“要实现什么功能”，还知道“会动到哪些边界、是否允许破坏兼容、上线如何回滚”。
+
+### 10.3 Superpowers 能力层
+
+建议在现有记忆/约束体系外，再补 6 类默认超能力：
+
+| Superpower | 核心能力 | 对当前体系的补位 |
+|------------|----------|------------------|
+| **Context Loader** | 自动加载 L4→L1、关联仓库约束、最近变更记录 | 防止 AI 只看当前文件“裸跑” |
+| **Impact Mapper** | 从 Spec 推导受影响仓库/表/API/WebSocket/IPC | 补足跨仓库影响分析 |
+| **Contract Guardian** | 校验 OpenAPI / JSON Schema / 事件协议 / 状态机 | 把“设计审计”变成可执行检查 |
+| **Test Synthesizer** | 从 BDD 自动生成单测、接口测试、E2E 骨架 | 保证测试与 Spec 同步演进 |
+| **Release Guard** | 按变更类型选择 CI 卡点、灰度、回滚、值班检查 | 把工程化延伸到发布阶段 |
+| **Knowledge Curator** | 将事故、复盘、常见修复沉淀回 L4/L3/L2/skills | 形成闭环学习，而非一次性 Prompt |
+
+---
+
+## 十一、与现有开发工作流的工程化整合
+
+### 11.1 建议的端到端工作流
+
+```text
+需求/缺陷 → 建分支 → 生成 Change Spec → 设计审计 → AI 实现 → PR → CI/CD → 灰度/发布 → 复盘沉淀
+```
+
+### 11.2 各阶段挂钩点
+
+| 阶段 | 人类动作 | AI/Skill 动作 | 关键工件 | 关卡 |
+|------|----------|---------------|----------|------|
+| **需求进入** | 明确业务目标与范围 | 生成 Product Spec 初稿 | `spec.md` | 无 |
+| **建分支** | 创建任务分支/关联工单 | 生成 Change Spec、影响面清单 | `change-spec.md` | 范围检查 |
+| **设计审计** | 确认状态机/事务边界 | 校验 Contract、数据库、事件、兼容性 | `contract/` `audit-report.md` | 审计通过 |
+| **实现阶段** | 审核关键实现策略 | 代码生成、测试生成、迁移脚本生成 | code + tests + migration | 本地自检 |
+| **PR 阶段** | 看 Diff、看边界、看业务意图 | 自动摘要、自动审计、自动回归建议 | PR Body / audit report | Review |
+| **CI/CD** | 只处理失败例外 | Lint/Test/Security/Compatibility/Release Guard | pipeline report | 必须全绿 |
+| **发布/灰度** | 决策是否放量 | 执行 runbook、检查监控、验证回滚 | release note | 放量门禁 |
+| **复盘沉淀** | 审阅经验是否可复用 | 更新 rules/context/skill/runbook | 记忆与技能资产 | 知识回流 |
+
+### 11.3 分支、PR、发布策略建议
+
+| 场景 | 分支命名 | 必选工件 | CI 策略 | 发布策略 |
+|------|----------|----------|---------|----------|
+| **普通功能** | `feature/<ticket>-<slug>` | Product + Change + Contract Spec | 三道关卡全开 | Feature Flag / 小流量灰度 |
+| **跨仓库改动** | `feature/xrepo-<ticket>` | 兼容性声明 + 影响矩阵 + 发布顺序 | 增加协议兼容检查 | 分批发布，先协议提供方 |
+| **数据库迁移** | `migration/<ticket>` | Migration Spec + Rollback Script | 增加迁移前后校验 | 先预发验证，再生产 |
+| **紧急修复** | `hotfix/<ticket>` | Hotfix Spec + 风险说明 | 跳过非关键覆盖率，保留审计 | 直接发布 + 事后补测 |
+| **前端原型/UI** | `prototype/<ticket>` | UI Spec + 交互清单 | 降低覆盖率门槛，保留回归 | 预览环境确认后合入 |
+
+### 11.4 与技术栈的绑定方式
+
+| 技术栈 | OpenSpec 约束 | Superpowers 默认动作 |
+|--------|---------------|----------------------|
+| **FastAPI** | OpenAPI 为接口真理源；错误码枚举必须显式定义 | 自动校验路由、请求/响应 Schema、一致性测试 |
+| **Vue 3 + TS** | 页面状态、交互流、接口依赖写入 UI Spec | 自动生成 store/api/types/test 骨架 |
+| **Electron** | IPC 通道、权限边界、主渲染职责必须入 Spec | 自动检查是否绕过 IPC、是否访问本地敏感路径 |
+| **PostgreSQL** | 表归属、迁移、回滚、枚举变更必须声明 | 自动检查 Migration、索引、事务边界 |
+| **WebSocket** | 事件名、payload、重放/幂等语义入 Contract Spec | 自动校验事件兼容性与前后端订阅一致性 |
+| **Redis** | 缓存键、TTL、失效策略、锁粒度入规则层 | 自动检查缓存击穿、锁释放、幂等风险 |
+
+---
+
+## 十二、蒸馏后的工程化 Skill 集合
+
+原则：**Skill 不是 Prompt 碎片，而是可复用的工程动作单元。** 建议按“Spec → 设计 → 实现 → 验证 → 沉淀”五段建设。
+
+### 12.1 Spec 阶段 Skills
+
+| Skill 名称 | 职责 | 触发时机 | 输入 | 输出 |
+|------------|------|----------|------|------|
+| **spec-intake** | 将需求/缺陷整理为 Product Spec | 新需求进入时 | PRD/工单/会议记录 | `spec.md` |
+| **change-scope-mapper** | 识别影响仓库、模块、表、协议、事件 | 建分支后 | Spec + 代码仓结构 | `change-spec.md` |
+| **bdd-expander** | 将需求展开为 Given-When-Then 与边界场景 | Spec 初稿后 | Product Spec | BDD 场景清单 |
+| **acceptance-matrix-builder** | 生成验收矩阵与测试覆盖目标 | 进入实现前 | BDD + 约束 | 测试矩阵 |
+
+### 12.2 设计阶段 Skills
+
+| Skill 名称 | 职责 | 触发时机 | 输入 | 输出 |
+|------------|------|----------|------|------|
+| **contract-auditor** | 审计 API / WebSocket / IPC / Schema 一致性 | 设计审计阶段 | Contract Spec | `audit-report.md` |
+| **state-machine-checker** | 检查状态流转死胡同、非法跳转、补偿路径 | 涉及状态流时 | 状态机定义 | 状态机审计报告 |
+| **migration-planner** | 设计 PostgreSQL 迁移、回滚、兼容窗口 | 有 DB 变更时 | Schema 变更 | migration plan |
+| **architecture-impact-brief** | 输出跨仓库影响图与发布顺序 | 跨仓库变更时 | Change Spec | 图 + 顺序清单 |
+
+### 12.3 实现阶段 Skills
+
+| Skill 名称 | 职责 | 触发时机 | 输入 | 输出 |
+|------------|------|----------|------|------|
+| **tdd-implementer** | 先生成测试，再生成实现代码 | 核心后端/状态机逻辑 | Spec + 测试矩阵 | code + unit tests |
+| **ui-prototyper** | 生成 Vue/Electron 原型与交互骨架 | 页面/桌面功能开发 | UI Spec | views/components/stores |
+| **api-contract-coder** | 按 OpenAPI/Schema 生成路由、类型、客户端 | 接口开发时 | Contract Spec | API code + types |
+| **event-wiring-builder** | 生成 WebSocket/IPC 事件接线与订阅代码 | 实时推送/桌面代理场景 | Event Spec | handlers + tests |
+
+### 12.4 验证阶段 Skills
+
+| Skill 名称 | 职责 | 触发时机 | 输入 | 输出 |
+|------------|------|----------|------|------|
+| **spec-test-sync** | 检查 Spec、测试、实现是否一致 | PR 前 | Spec + tests + diff | 差异报告 |
+| **release-gate-checker** | 根据变更类型选择并执行发布前门禁 | 合并前/发布前 | Change Spec + CI 结果 | 放行/阻断结论 |
+| **runtime-verifier** | 联动现有 `run` / `verify` 能力做真实运行验证 | 关键功能改动后 | 应用 + 场景清单 | 运行验证报告 |
+| **security-boundary-reviewer** | 联动现有 `security-review` 检查密钥、鉴权、IPC/SQL 风险 | 安全敏感改动 | diff + rules | 安全审计报告 |
+
+### 12.5 沉淀阶段 Skills
+
+| Skill 名称 | 职责 | 触发时机 | 输入 | 输出 |
+|------------|------|----------|------|------|
+| **incident-to-rule** | 将事故/线上问题提炼成规则与门禁 | 事故复盘后 | 复盘记录 | L4/L3 规则更新 |
+| **diff-to-context** | 把稳定实现回填到 L2 模块记忆 | 合并后 | merged diff | `context.md` 更新建议 |
+| **skill-evolver** | 从高频任务中沉淀新 skill 模板 | 月度回顾 | 任务记录/Prompt | 新 skill 草案 |
+| **changelog-and-runbook** | 生成变更说明、发布说明、回滚说明 | 发布前 | diff + Execution Spec | CHANGELOG + runbook |
+
+---
+
+## 十三、与现有能力的映射关系
+
+可以把“新 skills”分成两类：
+
+1. **直接复用现有能力**：`code-review`、`security-review`、`verify`、`run`、`architecture-diagram`、`drawio`
+2. **围绕 OpenSpec × Superpowers 新增的工程化 skill**：`change-scope-mapper`、`contract-auditor`、`spec-test-sync`、`release-gate-checker`、`incident-to-rule` 等
+
+推荐映射如下：
+
+| 现有能力 | 在新体系中的位置 | 推荐包装方式 |
+|----------|------------------|--------------|
+| **code-review** | PR 阶段质量审计 | 作为 `release-gate-checker` 的一个子步骤 |
+| **security-review** | 第三道关卡/安全红线检查 | 作为 `security-boundary-reviewer` 的底层能力 |
+| **verify** | 发布前真实行为验证 | 作为 `runtime-verifier` 的执行器 |
+| **run** | 本地/预发启动与冒烟 | 与 `runtime-verifier` 联动 |
+| **architecture-diagram / drawio** | 跨仓库影响图、状态机图、发布拓扑图 | 作为 `architecture-impact-brief` 的图形产物 |
+| **simplify** | 合并前降复杂度 | 作为实现后优化步骤，不替代正确性校验 |
+
+---
+
+## 十四、落地建议：Skill 目录与文件结构升级
+
+在原有 `.ai/skills/` 基础上，建议升级为：
+
+```text
+.ai/
+├── rules/
+├── skills/
+│   ├── spec/
+│   │   ├── spec-intake.md
+│   │   ├── change-scope-mapper.md
+│   │   ├── bdd-expander.md
+│   │   └── acceptance-matrix-builder.md
+│   ├── design/
+│   │   ├── contract-auditor.md
+│   │   ├── state-machine-checker.md
+│   │   ├── migration-planner.md
+│   │   └── architecture-impact-brief.md
+│   ├── implementation/
+│   │   ├── tdd-implementer.md
+│   │   ├── ui-prototyper.md
+│   │   ├── api-contract-coder.md
+│   │   └── event-wiring-builder.md
+│   ├── verify/
+│   │   ├── spec-test-sync.md
+│   │   ├── release-gate-checker.md
+│   │   ├── runtime-verifier.md
+│   │   └── security-boundary-reviewer.md
+│   └── evolve/
+│       ├── incident-to-rule.md
+│       ├── diff-to-context.md
+│       ├── skill-evolver.md
+│       └── changelog-and-runbook.md
+├── specs/
+│   ├── product/
+│   ├── change/
+│   ├── contract/
+│   ├── execution/
+│   └── hotfix/
+└── runbooks/
+```
+
+---
+
+## 十五、最终蒸馏：新的工程化开发范式
+
+可将整套方法收敛成一句话：
+
+> **用 OpenSpec 把需求变成真理源，用 Superpowers 把 AI 变成守纪律的工程执行体，再用 Skill 集合把每个阶段固化成可重复、可审计、可演化的工程动作。**
+
+对应到团队角色：
+
+- **SE/架构师**：负责 OpenSpec、边界、协议、发布拓扑。
+- **组长/平台工程师**：负责 Superpowers、CI/CD 门禁、Skill 资产化。
+- **开发/审计员**：负责把业务翻译成 BDD，驱动 AI 产出，并做首层 Diff 审计。
+- **运维/值班**：负责 Execution Spec、灰度、回滚、监控验证。
+
+这样，原方案就从“AI 辅助开发规范”进一步升级为：
+
+**一套可跨仓库协作、可绑定发布流程、可持续沉淀技能资产的 AI 工程化操作系统。**

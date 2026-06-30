@@ -13,30 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术经验/人员结构及角色变革.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "人员结构及角色变革"
-            }
-          },
-          {
-            "id": "deea294b149d655f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "AI 工程化方案.md",
                 "mode": "source",
                 "source": false,
@@ -55,8 +31,7 @@
               "title": "AI 工程化方案"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,13 +184,23 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "02705e4b1bd63c2a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 293.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,16 +217,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "deea294b149d655f",
+  "active": "5c4085c214bedda9",
   "lastOpenFiles": [
-    "AI 工程化方案.md.tmp.180508.80a4667307ab",
-    "AI 工程化方案.md",
-    "技术经验/vibe coding工程化建设.md",
+    "AI 工程化方案.md.tmp.69176.d50b07c71dfd",
     "技术经验/人员结构及角色变革.md",
+    "技术经验/autopilot-core-idea-brief.md",
+    "AI 工程化方案.md",
+    "技术经验/Pasted image 20260629001500.png",
     "技术经验/spec编写标准.md",
     "技术经验/harness工程.md",
-    "技术经验/autopilot-core-idea-brief.md",
-    "技术经验/Pasted image 20260629001500.png",
+    "技术经验/vibe coding工程化建设.md",
     "crowbio/运维/aws相关操作.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.10230ec00a20",
     "crowbio/运维/agent中台.md.tmp.41616.b1cdaf5a93eb",
