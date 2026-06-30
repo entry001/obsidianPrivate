@@ -26,7 +26,8 @@
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "device:2e220cb4-c61e-48e8-82ad-408ea4c25dc9": "C:\\Users\\fxc\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\cli-wrapper.cjs"
+        "device:2e220cb4-c61e-48e8-82ad-408ea4c25dc9": "C:\\Users\\fxc\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\cli-wrapper.cjs",
+        "device:668e6736-2c8e-4d09-8404-bec7ca4699b2": "D:\\node_global\\node_modules\\@anthropic-ai\\claude-code\\cli-wrapper.cjs"
       },
       "loadUserSettings": true,
       "enableChrome": false,

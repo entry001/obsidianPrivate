@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "人员结构及角色变革"
             }
+          },
+          {
+            "id": "deea294b149d655f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI 工程化方案.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AI 工程化方案"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,23 +209,13 @@
               "icon": "bot",
               "title": "Claudian"
             }
-          },
-          {
-            "id": "02705e4b1bd63c2a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
-            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 457.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,13 +232,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c7395cfc5b08b80",
+  "active": "deea294b149d655f",
   "lastOpenFiles": [
-    "技术经验/Pasted image 20260629001500.png",
+    "AI 工程化方案.md.tmp.180508.80a4667307ab",
+    "AI 工程化方案.md",
+    "技术经验/vibe coding工程化建设.md",
     "技术经验/人员结构及角色变革.md",
     "技术经验/spec编写标准.md",
     "技术经验/harness工程.md",
-    "技术经验/vibe coding工程化建设.md",
+    "技术经验/autopilot-core-idea-brief.md",
+    "技术经验/Pasted image 20260629001500.png",
     "crowbio/运维/aws相关操作.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.10230ec00a20",
     "crowbio/运维/agent中台.md.tmp.41616.b1cdaf5a93eb",
@@ -253,8 +271,6 @@
     "crowbio/未命名.md",
     "copilot/copilot-conversations/总结狐疑@20260316_224659.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "未命名.canvas"
   ]
 }
