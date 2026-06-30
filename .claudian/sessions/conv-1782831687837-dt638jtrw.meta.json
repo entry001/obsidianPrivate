@@ -4,8 +4,8 @@
   "title": "Design engineering skill set from OpenSpec and ...",
   "titleGenerationStatus": "success",
   "createdAt": 1782831687838,
-  "updatedAt": 1782832708690,
-  "lastResponseAt": 1782832708690,
+  "updatedAt": 1782833617531,
+  "lastResponseAt": 1782833617530,
   "sessionId": "d11f1a63-1c99-45d0-9c89-a48e285d29fd",
   "providerState": {
     "providerSessionId": "d11f1a63-1c99-45d0-9c89-a48e285d29fd",
@@ -24,12 +24,12 @@
   "currentNote": "AI 工程化方案.md",
   "usage": {
     "model": "sonnet",
-    "inputTokens": 328,
+    "inputTokens": 86321,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 57856,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 58184,
-    "percentage": 29,
+    "contextTokens": 86321,
+    "percentage": 43,
     "contextWindowIsAuthoritative": true
   }
 }

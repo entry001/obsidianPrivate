@@ -10,26 +10,31 @@
 - [[.ai/skills/spec/spec-intake.md|spec-intake]]：把需求整理为 Product Spec
 - [[.ai/skills/spec/change-scope-mapper.md|change-scope-mapper]]：识别受影响仓库、模块、协议与发布边界
 - [[.ai/skills/spec/bdd-expander.md|bdd-expander]]：把需求展开为 Given-When-Then 场景矩阵
+- [[.ai/skills/spec/acceptance-matrix-builder.md|acceptance-matrix-builder]]：生成验收矩阵与门禁映射
 
 ### 2. Design 阶段
 - [[.ai/skills/design/contract-auditor.md|contract-auditor]]：审计 API / WebSocket / IPC / Schema 契约
 - [[.ai/skills/design/state-machine-checker.md|state-machine-checker]]：检查状态流转、补偿与幂等风险
 - [[.ai/skills/design/migration-planner.md|migration-planner]]：生成迁移、兼容、回滚计划
+- [[.ai/skills/design/architecture-impact-brief.md|architecture-impact-brief]]：输出跨仓库影响与发布顺序简报
 
 ### 3. Implementation 阶段
 - [[.ai/skills/implementation/tdd-implementer.md|tdd-implementer]]：测试先行的核心业务实现
 - [[.ai/skills/implementation/ui-prototyper.md|ui-prototyper]]：Vue / Electron 原型与交互骨架生成
 - [[.ai/skills/implementation/event-wiring-builder.md|event-wiring-builder]]：WebSocket / IPC 事件接线实现
+- [[.ai/skills/implementation/api-contract-coder.md|api-contract-coder]]：按契约生成后端接口、前端类型与调用层
 
 ### 4. Verify 阶段
 - [[.ai/skills/verify/spec-test-sync.md|spec-test-sync]]：校验 Spec、测试、实现是否同步
 - [[.ai/skills/verify/release-gate-checker.md|release-gate-checker]]：发布前门禁决策
 - [[.ai/skills/verify/runtime-verifier.md|runtime-verifier]]：真实运行验证与证据化报告
+- [[.ai/skills/verify/security-boundary-reviewer.md|security-boundary-reviewer]]：围绕权限、DB、IPC、配置做安全边界审计
 
 ### 5. Evolve 阶段
 - [[.ai/skills/evolve/incident-to-rule.md|incident-to-rule]]：把事故沉淀为规则与资产
 - [[.ai/skills/evolve/diff-to-context.md|diff-to-context]]：把稳定实现回填到上下文记忆
 - [[.ai/skills/evolve/skill-evolver.md|skill-evolver]]：从高频任务中演化新 Skill
+- [[.ai/skills/evolve/changelog-and-runbook.md|changelog-and-runbook]]：生成 CHANGELOG、发布说明与回滚 Runbook
 
 ---
 

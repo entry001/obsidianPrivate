@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 工程化方案（管理层汇报版）.md",
+                "file": "AI 工程化团队 Onboarding 手册.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 工程化方案（管理层汇报版）"
+              "title": "AI 工程化团队 Onboarding 手册"
             }
           }
         ]
@@ -219,8 +219,16 @@
   },
   "active": "5c4085c214bedda9",
   "lastOpenFiles": [
-    "AI 工程化方案.md",
+    "AI 工程化团队 Onboarding 手册.md.tmp.69176.48c21cc2134f",
+    "AI 工程化团队 Onboarding 手册.md.tmp.69176.9ea4a3e0aab5",
+    "AI 工程化团队 Onboarding 手册.md.tmp.69176.625aaa2c83df",
+    "AI 工程化团队 Onboarding 手册.md.tmp.69176.fbd52db89ead",
+    "AI 工程化使用手册.md",
+    "AI 工程化团队 Onboarding 手册.md",
+    "AI 工程化团队 Onboarding 手册.md.tmp.69176.1747db58ce2a",
     "AI 工程化方案（管理层汇报版）.md",
+    "AI 工程化使用手册.md.tmp.69176.6d9c3ea468db",
+    "AI 工程化方案.md",
     "AI 工程化方案（管理层汇报版）.md.tmp.69176.55e983b3c890",
     "AI 工程化方案.md.tmp.69176.d50b07c71dfd",
     "技术经验/人员结构及角色变革.md",
@@ -237,11 +245,6 @@
     "crowbio/运维/ECS配置.md",
     "crowbio/运维/运维部署指导.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.bd8b10c15909",
-    "crowbio/运维/相关环境.md.tmp.41616.c49804e86ff0",
-    "crowbio/运维/相关环境.md.tmp.41616.830533c37ee3",
-    "crowbio/运维/相关环境.md.tmp.41616.06ba87144f29",
-    "crowbio/运维/ECS配置.md.tmp.41616.1ad416d962c4",
-    "crowbio/运维/ECS配置.md.tmp.41616.09442b89d6dc",
     "crowbio/运维/相关环境.md",
     "crowbio/会议代办.md",
     "crowbio/运维/后端/README.md",
@@ -253,9 +256,6 @@
     "crowbio/项目例会.md",
     "crowbio/前后端对接api.md",
     "欢迎.md",
-    "crowbio/未命名.md",
-    "copilot/copilot-conversations/总结狐疑@20260316_224659.md",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
     "未命名.canvas"
   ]
 }
