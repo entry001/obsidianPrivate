@@ -24,7 +24,11 @@
 - 审计结论统一使用 `pass / warn / block / conditional-pass`
 - 状态统一使用 `draft / ready-for-audit / ready-for-implementation / ready-for-release / completed`
 
-## 四、建议后续继续补齐的 Skill
+## 四、Skill 与 Command 对照
+
+- [[.ai/skills/_runtime/skill-command-map.md|Skill 对应 Command 对照表]]
+
+## 五、建议后续继续补齐的 Skill
 
 - architecture-impact-brief
 - api-contract-coder
