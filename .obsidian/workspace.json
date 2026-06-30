@@ -200,7 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c7395cfc5b08b80",
+  "active": "5c4085c214bedda9",
   "lastOpenFiles": [
     "AI 工程化方案.md",
     "AI 工程化方案（管理层汇报版）.md",
