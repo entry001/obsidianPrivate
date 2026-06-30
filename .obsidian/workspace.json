@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 工程化方案.md",
+                "file": "AI 工程化方案（管理层汇报版）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 工程化方案"
+              "title": "AI 工程化方案（管理层汇报版）"
             }
           }
         ]
@@ -217,12 +217,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c4085c214bedda9",
+  "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "AI 工程化方案.md",
+    "AI 工程化方案（管理层汇报版）.md",
+    "AI 工程化方案（管理层汇报版）.md.tmp.69176.55e983b3c890",
     "AI 工程化方案.md.tmp.69176.d50b07c71dfd",
     "技术经验/人员结构及角色变革.md",
     "技术经验/autopilot-core-idea-brief.md",
-    "AI 工程化方案.md",
     "技术经验/Pasted image 20260629001500.png",
     "技术经验/spec编写标准.md",
     "技术经验/harness工程.md",
@@ -240,8 +242,6 @@
     "crowbio/运维/相关环境.md.tmp.41616.06ba87144f29",
     "crowbio/运维/ECS配置.md.tmp.41616.1ad416d962c4",
     "crowbio/运维/ECS配置.md.tmp.41616.09442b89d6dc",
-    "crowbio/运维/aws相关操作.md.tmp.41616.c4f8b0e1af17",
-    "crowbio/运维/aws相关操作.md.tmp.41616.980b129d9b96",
     "crowbio/运维/相关环境.md",
     "crowbio/会议代办.md",
     "crowbio/运维/后端/README.md",
