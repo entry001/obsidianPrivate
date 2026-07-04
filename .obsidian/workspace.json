@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 工程化团队 Onboarding 手册.md",
+                "file": "crowbio/运维/相关环境.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 工程化团队 Onboarding 手册"
+              "title": "相关环境"
             }
           }
         ]
@@ -219,10 +219,10 @@
   },
   "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "AI 工程化团队 Onboarding 手册.md",
     "AI 工程化方案.md",
     "AI 工程化方案（管理层汇报版）.md",
     "AI 工程化使用手册.md",
-    "AI 工程化团队 Onboarding 手册.md",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.48c21cc2134f",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.9ea4a3e0aab5",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.625aaa2c83df",
