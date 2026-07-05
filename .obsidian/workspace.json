@@ -11,24 +11,12 @@
             "id": "0c7395cfc5b08b80",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "crowbio/运维/相关环境.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "技术经验/Pasted image 20260629001500.png"
               },
-              "icon": "lucide-file",
-              "title": "相关环境"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260629001500"
             }
           }
         ]
@@ -219,6 +207,9 @@
   },
   "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "技术经验/spec编写标准.md",
+    "技术经验/vibe coding工程化建设.md",
+    "crowbio/运维/相关环境.md",
     "AI 工程化团队 Onboarding 手册.md",
     "AI 工程化方案.md",
     "AI 工程化方案（管理层汇报版）.md",
@@ -234,9 +225,7 @@
     "技术经验/人员结构及角色变革.md",
     "技术经验/autopilot-core-idea-brief.md",
     "技术经验/Pasted image 20260629001500.png",
-    "技术经验/spec编写标准.md",
     "技术经验/harness工程.md",
-    "技术经验/vibe coding工程化建设.md",
     "crowbio/运维/aws相关操作.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.10230ec00a20",
     "crowbio/运维/agent中台.md.tmp.41616.b1cdaf5a93eb",
@@ -244,7 +233,6 @@
     "crowbio/运维/ECS部署配置.md",
     "crowbio/运维/ECS配置.md",
     "crowbio/运维/运维部署指导.md",
-    "crowbio/运维/相关环境.md",
     "crowbio/会议代办.md",
     "crowbio/运维/后端/README.md",
     "crowbio/运维/中台/README.md",
