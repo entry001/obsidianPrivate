@@ -11,12 +11,24 @@
             "id": "0c7395cfc5b08b80",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "技术经验/Pasted image 20260629001500.png"
+                "file": "crowbio/运维/相关环境.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260629001500"
+              "icon": "lucide-file",
+              "title": "相关环境"
             }
           }
         ]
@@ -207,6 +219,7 @@
   },
   "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "技术经验/Pasted image 20260629001500.png",
     "技术经验/spec编写标准.md",
     "技术经验/vibe coding工程化建设.md",
     "crowbio/运维/相关环境.md",
@@ -224,7 +237,6 @@
     "AI 工程化方案.md.tmp.69176.d50b07c71dfd",
     "技术经验/人员结构及角色变革.md",
     "技术经验/autopilot-core-idea-brief.md",
-    "技术经验/Pasted image 20260629001500.png",
     "技术经验/harness工程.md",
     "crowbio/运维/aws相关操作.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.10230ec00a20",
