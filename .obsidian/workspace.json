@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crowbio/运维/相关环境.md",
+                "file": "crowbio/会议代办.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "相关环境"
+              "title": "会议代办"
             }
           }
         ]
@@ -219,10 +219,10 @@
   },
   "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "crowbio/运维/相关环境.md",
     "技术经验/Pasted image 20260629001500.png",
     "技术经验/spec编写标准.md",
     "技术经验/vibe coding工程化建设.md",
-    "crowbio/运维/相关环境.md",
     "AI 工程化团队 Onboarding 手册.md",
     "AI 工程化方案.md",
     "AI 工程化方案（管理层汇报版）.md",
