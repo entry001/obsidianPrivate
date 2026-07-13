@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crowbio/会议代办.md",
+                "file": "crowbio/运维/运维部署指导.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "会议代办"
+              "title": "运维部署指导"
             }
           }
         ]
@@ -220,7 +220,21 @@
   },
   "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "crowbio/运维/运维部署架构图.drawio",
+    "crowbio/运维/存储桶说明.md",
+    "crowbio/运维/ECS配置.md",
+    "crowbio/运维/ECS部署配置.md",
+    "crowbio/运维/aws相关操作.md",
+    "crowbio/运维/运维部署指导.md",
     "crowbio/运维/相关环境.md",
+    "crowbio/运维/中台/README.md",
+    "crowbio/运维/agent中台.md",
+    "crowbio/运维/后端/README.md",
+    "crowbio/CHAT_API.md",
+    "crowbio/BACKEND_API.md",
+    "crowbio/前后端对接api.md",
+    "crowbio/项目例会.md",
+    "crowbio/会议代办.md",
     "技术经验/Pasted image 20260629001500.png",
     "技术经验/spec编写标准.md",
     "技术经验/vibe coding工程化建设.md",
@@ -239,22 +253,8 @@
     "技术经验/人员结构及角色变革.md",
     "技术经验/autopilot-core-idea-brief.md",
     "技术经验/harness工程.md",
-    "crowbio/运维/aws相关操作.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.10230ec00a20",
-    "crowbio/运维/agent中台.md.tmp.41616.b1cdaf5a93eb",
-    "crowbio/运维/agent中台.md",
-    "crowbio/运维/ECS部署配置.md",
-    "crowbio/运维/ECS配置.md",
-    "crowbio/运维/运维部署指导.md",
-    "crowbio/会议代办.md",
-    "crowbio/运维/后端/README.md",
-    "crowbio/运维/中台/README.md",
-    "crowbio/运维/存储桶说明.md",
     "crowbio/运维/运维部署架构图.md",
-    "crowbio/CHAT_API.md",
-    "crowbio/BACKEND_API.md",
-    "crowbio/项目例会.md",
-    "crowbio/前后端对接api.md",
     "欢迎.md",
     "未命名.canvas"
   ]
