@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crowbio/运维/运维部署指导.md",
+                "file": "crowbio/运维/相关环境.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "运维部署指导"
+              "title": "相关环境"
             }
           }
         ]
@@ -220,12 +220,12 @@
   },
   "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "crowbio/运维/aws相关操作.md",
+    "crowbio/运维/ECS部署配置.md",
+    "crowbio/运维/运维部署指导.md",
     "crowbio/运维/运维部署架构图.drawio",
     "crowbio/运维/存储桶说明.md",
     "crowbio/运维/ECS配置.md",
-    "crowbio/运维/ECS部署配置.md",
-    "crowbio/运维/aws相关操作.md",
-    "crowbio/运维/运维部署指导.md",
     "crowbio/运维/相关环境.md",
     "crowbio/运维/中台/README.md",
     "crowbio/运维/agent中台.md",
