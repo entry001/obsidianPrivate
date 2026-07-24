@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crowbio/运维/相关环境.md",
+                "file": "AI 工程化方案.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "相关环境"
+              "title": "AI 工程化方案"
             }
           }
         ]
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "crowbio/前后端对接api.md",
+                "file": "AI 工程化方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "前后端对接api 的出链列表"
+              "title": "AI 工程化方案 的出链列表"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "crowbio/运维/ECS部署配置.md",
+                "file": "AI 工程化方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ECS部署配置 的大纲"
+              "title": "AI 工程化方案 的大纲"
             }
           },
           {
@@ -196,12 +196,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,13 +219,17 @@
   },
   "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "AI 工程化方案（管理层汇报版）.md",
+    "AI 工程化团队 Onboarding 手册.md",
+    "AI 工程化方案.md",
+    "欢迎.md",
+    "crowbio/运维/相关环境.md",
     "crowbio/运维/aws相关操作.md",
     "crowbio/运维/ECS部署配置.md",
     "crowbio/运维/运维部署指导.md",
     "crowbio/运维/运维部署架构图.drawio",
     "crowbio/运维/存储桶说明.md",
     "crowbio/运维/ECS配置.md",
-    "crowbio/运维/相关环境.md",
     "crowbio/运维/中台/README.md",
     "crowbio/运维/agent中台.md",
     "crowbio/运维/后端/README.md",
@@ -238,9 +241,6 @@
     "技术经验/Pasted image 20260629001500.png",
     "技术经验/spec编写标准.md",
     "技术经验/vibe coding工程化建设.md",
-    "AI 工程化团队 Onboarding 手册.md",
-    "AI 工程化方案.md",
-    "AI 工程化方案（管理层汇报版）.md",
     "AI 工程化使用手册.md",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.48c21cc2134f",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.9ea4a3e0aab5",
@@ -255,7 +255,6 @@
     "技术经验/harness工程.md",
     "crowbio/运维/aws相关操作.md.tmp.41616.10230ec00a20",
     "crowbio/运维/运维部署架构图.md",
-    "欢迎.md",
     "未命名.canvas"
   ]
 }
