@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 工程化方案.md",
+                "file": "技术经验/深入理解 AI Agent¶.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 工程化方案"
+              "title": "深入理解 AI Agent¶"
             }
           }
         ]
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI 工程化方案.md",
+                "file": "技术经验/深入理解 AI Agent¶.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "AI 工程化方案 的出链列表"
+              "title": "深入理解 AI Agent¶ 的出链列表"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI 工程化方案.md",
+                "file": "技术经验/深入理解 AI Agent¶.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI 工程化方案 的大纲"
+              "title": "深入理解 AI Agent¶ 的大纲"
             }
           },
           {
@@ -219,9 +219,10 @@
   },
   "active": "0c7395cfc5b08b80",
   "lastOpenFiles": [
+    "AI 工程化方案.md",
+    "技术经验/深入理解 AI Agent¶.md",
     "AI 工程化方案（管理层汇报版）.md",
     "AI 工程化团队 Onboarding 手册.md",
-    "AI 工程化方案.md",
     "欢迎.md",
     "crowbio/运维/相关环境.md",
     "crowbio/运维/aws相关操作.md",
