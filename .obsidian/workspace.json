@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "INDEX"
             }
+          },
+          {
+            "id": "5a17edece6374045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INDEX.md",
+                "file": "未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -198,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -219,8 +244,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c7395cfc5b08b80",
+  "active": "5c4085c214bedda9",
   "lastOpenFiles": [
+    "INDEX.md",
+    "未命名.md",
+    "未命名",
     "技术经验/vibe coding工程化建设.md",
     "AI 开发/AI 工程化方案.md",
     "crowbio/运维/相关环境.md",
@@ -255,8 +283,6 @@
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.625aaa2c83df",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.fbd52db89ead",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.1747db58ce2a",
-    "AI 工程化使用手册.md.tmp.69176.6d9c3ea468db",
-    "技术经验/harness工程.md",
     "未命名.canvas"
   ]
 }
