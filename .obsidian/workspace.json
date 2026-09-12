@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "运营/小红书文案.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "小红书文案"
             }
           }
         ],
@@ -246,8 +246,10 @@
   },
   "active": "5c4085c214bedda9",
   "lastOpenFiles": [
-    "INDEX.md",
     "未命名.md",
+    "运营/小红书文案.md",
+    "运营",
+    "INDEX.md",
     "未命名",
     "技术经验/vibe coding工程化建设.md",
     "AI 开发/AI 工程化方案.md",
@@ -277,12 +279,10 @@
     "crowbio/开发/BACKEND_API.md",
     "crowbio/开发/前后端对接api.md",
     "crowbio/项目管理/项目例会.md",
-    "AI 工程化使用手册.md",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.48c21cc2134f",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.9ea4a3e0aab5",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.625aaa2c83df",
     "AI 工程化团队 Onboarding 手册.md.tmp.69176.fbd52db89ead",
-    "AI 工程化团队 Onboarding 手册.md.tmp.69176.1747db58ce2a",
     "未命名.canvas"
   ]
 }

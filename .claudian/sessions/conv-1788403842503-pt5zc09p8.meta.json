@@ -4,8 +4,8 @@
   "title": "分析头部led的控制器厂家和屏幕厂家",
   "titleGenerationStatus": "failed",
   "createdAt": 1788403842503,
-  "updatedAt": 1788404031825,
-  "lastResponseAt": 1788404014523,
+  "updatedAt": 1789224934982,
+  "lastResponseAt": 1789224836401,
   "sessionId": "84e4be6a-ea56-4190-9db1-04decd8df095",
   "providerState": {
     "providerSessionId": "84e4be6a-ea56-4190-9db1-04decd8df095"
@@ -13,11 +13,12 @@
   "currentNote": "未命名.md",
   "usage": {
     "model": "sonnet",
-    "inputTokens": 0,
+    "inputTokens": 237,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "cacheReadInputTokens": 17920,
     "contextWindow": 200000,
-    "contextTokens": 0,
-    "percentage": 0
+    "contextTokens": 18157,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
   }
 }
