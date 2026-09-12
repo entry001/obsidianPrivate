@@ -4,8 +4,8 @@
   "title": "Create Xiaohongshu copy from WeChat article",
   "titleGenerationStatus": "success",
   "createdAt": 1789224994812,
-  "updatedAt": 1789226345827,
-  "lastResponseAt": 1789226345827,
+  "updatedAt": 1789226734730,
+  "lastResponseAt": 1789226734730,
   "sessionId": "2dc46227-6c50-4a9f-8e49-a281201201d3",
   "providerState": {
     "providerSessionId": "2dc46227-6c50-4a9f-8e49-a281201201d3"
@@ -13,12 +13,12 @@
   "currentNote": "运营/小红书文案.md",
   "usage": {
     "model": "sonnet",
-    "inputTokens": 3663,
+    "inputTokens": 251,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 27392,
+    "cacheReadInputTokens": 33024,
     "contextWindow": 200000,
-    "contextTokens": 31055,
-    "percentage": 16,
+    "contextTokens": 33275,
+    "percentage": 17,
     "contextWindowIsAuthoritative": true
   }
 }
