@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运营/小红书文案.md",
+                "file": "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "小红书文案"
+              "title": "汽车零售渠道智能体开发大纲_v0"
             }
           }
         ],
@@ -115,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 236.5,
+    "collapsed": true
   },
   "right": {
     "id": "0de409a57c6ebedc",
@@ -227,7 +228,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,12 +246,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c4085c214bedda9",
+  "active": "5a17edece6374045",
   "lastOpenFiles": [
+    "运营/小红书文案.md",
+    "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
+    "埃森哲/汽车管理",
+    "埃森哲",
     "运营/小红书文案.md.tmp.23068.5b616a22473b",
     "运营/小红书文案.md.tmp.23068.af8071202fc5",
     "未命名.md",
-    "运营/小红书文案.md",
     "运营",
     "INDEX.md",
     "未命名",
@@ -280,9 +285,6 @@
     "crowbio/运维/后端/README.md",
     "crowbio/开发/BACKEND_API.md",
     "crowbio/开发/前后端对接api.md",
-    "AI 工程化团队 Onboarding 手册.md.tmp.69176.48c21cc2134f",
-    "AI 工程化团队 Onboarding 手册.md.tmp.69176.9ea4a3e0aab5",
-    "AI 工程化团队 Onboarding 手册.md.tmp.69176.625aaa2c83df",
     "未命名.canvas"
   ]
 }
