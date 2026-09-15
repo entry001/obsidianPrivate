@@ -37,6 +37,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "埃森哲/汽车管理/待办.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "待办"
+            }
+          },
+          {
+            "id": "e84581ff9f69e6de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
                 "mode": "source",
                 "source": false,
@@ -57,6 +81,36 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "8feaf46834de55d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be5b3a97619c272a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "汽车零售渠道智能体开发大纲_v0"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5,
-    "collapsed": true
+    "width": 236.5
   },
   "right": {
     "id": "0de409a57c6ebedc",
@@ -248,8 +301,9 @@
   },
   "active": "5a17edece6374045",
   "lastOpenFiles": [
-    "运营/小红书文案.md",
     "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
+    "埃森哲/汽车管理/待办.md",
+    "运营/小红书文案.md",
     "埃森哲/汽车管理",
     "埃森哲",
     "运营/小红书文案.md.tmp.23068.5b616a22473b",
@@ -284,7 +338,6 @@
     "crowbio/运维/agent中台.md",
     "crowbio/运维/后端/README.md",
     "crowbio/开发/BACKEND_API.md",
-    "crowbio/开发/前后端对接api.md",
     "未命名.canvas"
   ]
 }
