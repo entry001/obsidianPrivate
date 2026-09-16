@@ -80,37 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "8feaf46834de55d9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "be5b3a97619c272a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "汽车零售渠道智能体开发大纲_v0"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -299,7 +269,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be5b3a97619c272a",
+  "active": "e84581ff9f69e6de",
   "lastOpenFiles": [
     "埃森哲/汽车管理/待办.md",
     "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
