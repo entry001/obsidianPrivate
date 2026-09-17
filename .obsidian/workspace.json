@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
+                "file": "crowbio/运维/aws相关操作.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "汽车零售渠道智能体开发大纲_v0"
+              "title": "aws相关操作"
             }
           }
         ],
@@ -271,8 +271,23 @@
   },
   "active": "e84581ff9f69e6de",
   "lastOpenFiles": [
-    "埃森哲/汽车管理/待办.md",
+    "crowbio/运维/ECS部署配置.md",
+    "crowbio/运维/ECS配置.md",
+    "crowbio/运维/中台/README.md",
+    "crowbio/运维/后端/README.md",
+    "crowbio/项目管理/会议代办.md",
+    "crowbio/项目管理/项目例会.md",
+    "crowbio/开发/CHAT_API.md",
+    "crowbio/开发/BACKEND_API.md",
+    "crowbio/开发/前后端对接api.md",
+    "crowbio/运维/运维部署指导.md",
+    "crowbio/运维/运维部署架构图.drawio",
+    "crowbio/运维/相关环境.md",
+    "crowbio/运维/存储桶说明.md",
+    "crowbio/运维/aws相关操作.md",
+    "crowbio/运维/agent中台.md",
     "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
+    "埃森哲/汽车管理/待办.md",
     "运营/小红书文案.md",
     "埃森哲/汽车管理",
     "埃森哲",
@@ -284,12 +299,8 @@
     "未命名",
     "技术经验/vibe coding工程化建设.md",
     "AI 开发/AI 工程化方案.md",
-    "crowbio/运维/相关环境.md",
-    "crowbio/运维/存储桶说明.md",
     "欢迎.md",
-    "crowbio/开发/CHAT_API.md",
     "crowbio/项目管理",
-    "crowbio/项目管理/会议代办.md",
     "crowbio/开发",
     "AI 开发/AI 工程化团队 Onboarding 手册.md",
     "AI 开发/AI 工程化方案（管理层汇报版）.md",
@@ -297,17 +308,6 @@
     "AI 开发",
     "技术经验/Pasted image 20260629001500.png",
     "技术经验/autopilot-core-idea-brief.md",
-    "技术经验/深入理解 AI Agent¶.md",
-    "技术经验/人员结构及角色变革.md",
-    "crowbio/运维/aws相关操作.md",
-    "crowbio/运维/ECS部署配置.md",
-    "crowbio/运维/运维部署指导.md",
-    "crowbio/运维/运维部署架构图.drawio",
-    "crowbio/运维/ECS配置.md",
-    "crowbio/运维/中台/README.md",
-    "crowbio/运维/agent中台.md",
-    "crowbio/运维/后端/README.md",
-    "crowbio/开发/BACKEND_API.md",
     "未命名.canvas"
   ]
 }
