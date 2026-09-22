@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "crowbio/运维/aws相关操作.md",
+                "file": "埃森哲/汽车管理/待办.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "aws相关操作"
+              "title": "待办"
             }
           }
         ],
@@ -271,6 +271,9 @@
   },
   "active": "e84581ff9f69e6de",
   "lastOpenFiles": [
+    "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
+    "埃森哲/汽车管理/待办.md",
+    "crowbio/运维/aws相关操作.md",
     "crowbio/运维/ECS部署配置.md",
     "crowbio/运维/ECS配置.md",
     "crowbio/运维/中台/README.md",
@@ -284,10 +287,7 @@
     "crowbio/运维/运维部署架构图.drawio",
     "crowbio/运维/相关环境.md",
     "crowbio/运维/存储桶说明.md",
-    "crowbio/运维/aws相关操作.md",
     "crowbio/运维/agent中台.md",
-    "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
-    "埃森哲/汽车管理/待办.md",
     "运营/小红书文案.md",
     "埃森哲/汽车管理",
     "埃森哲",
