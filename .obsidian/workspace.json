@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
+                "file": "埃森哲/汽车管理/待办.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "汽车零售渠道智能体开发大纲_v0"
+              "title": "待办"
             }
           },
           {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -269,11 +269,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e84581ff9f69e6de",
+  "active": "5a17edece6374045",
   "lastOpenFiles": [
-    "埃森哲/汽车管理/待办.md",
     "埃森哲/汽车管理/笔记.md",
     "埃森哲/汽车管理/汽车零售渠道智能体开发大纲_v0.md",
+    "埃森哲/汽车管理/待办.md",
     "crowbio/运维/aws相关操作.md",
     "crowbio/运维/ECS部署配置.md",
     "crowbio/运维/ECS配置.md",
